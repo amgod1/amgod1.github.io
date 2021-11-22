@@ -1,0 +1,427 @@
+* {
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+h2 {
+    color: dimgray;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 5%;
+}
+
+.bold_word {
+    font-weight: 700;
+}
+
+.main_logo {
+    width: 200px;
+}
+
+.header__logo {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.artists_quiz_img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.pictures_quiz_img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.quiz__main {
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    gap: 200px;
+    width: 100%;
+}
+
+.main_title {
+    text-align: right;
+}
+
+a {
+    color: white;
+}
+
+.button_wrapper {
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.settings__button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    color: white !important;
+    font-family: Arial;
+    font-size: 24px;
+    background-color: #661004;
+    box-shadow: 1px 6px 11px 1px rgb(0 0 0 / 70%);
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    min-width: 150px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.settings__button:hover {opacity: .8;}
+
+footer {
+    margin: 25px 0;
+}
+
+.footer__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.author {
+    color: dimgray;
+    font-family: Arial;
+    font-size: 24px;    
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+a {
+    color: dimgray !important;
+    text-decoration: none;
+}
+
+.year {
+    color: dimgray;
+    font-family: Arial;
+    font-size: 24px;    
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.rs_school {
+    height: 50px;
+    width: auto;
+}
+
+#settings_move {
+    margin-top: 128px;
+}
+
+.settings_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+.volume_wrapper {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 1px black;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 25px;
+}
+
+.time_wrapper {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 1px black;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 25px;
+}
+
+.settings_logo {
+    background-color: white;
+    display: block;
+    margin: 15% auto; 
+}
+
+#volume_logo_move {
+    margin: 10% auto;
+}
+
+#scroll_volume_move {
+    padding-top: 21px;
+}
+
+.wrapper_logo {
+    background-color: white;
+}
+
+#slider {
+    -webkit-appearance: none;
+    width: 60%;
+    height: 7px;
+    border-radius: 3px;
+}
+
+.scroll_volume {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.button__on-off {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#on_off {
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.on_off_text {
+    color: dimgray;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: white;
+    margin-left: 8px;
+}
+
+.settings_text {
+    color: dimgray;
+    font-family: Arial;
+    font-size: 32px;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.categories_pull {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1210px;
+    justify-content: center;
+    margin: auto;
+}
+
+.artists_categories {
+    width: 280px;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: -120px;
+}
+
+.cathegories_photos_size {
+    height: 300px;
+    width: 280px;
+    object-fit: cover;
+}
+
+.cathegories_photos_size:hover {
+    opacity: .8;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+    color: white;
+    background-color: #7b6a58;
+    border-top-left-radius: 40px;
+    padding: 30px 10px 20px 20px;
+}
+
+.questions_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question-for-quiz {
+    color: dimgray;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.authors_quiz-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image-for-quiz {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+.answers {
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.answers_answer {
+    cursor: pointer;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: white;
+    width: 300px;
+    height: 30px;
+    background-color: #661004;
+    box-shadow: 1px 2px 5px 1px rgb(0 0 0 / 70%);
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.lang_settings {
+    cursor: pointer;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: white;
+    width: 60px;
+    height: 60px;
+    background-color: #661004;
+    box-shadow: 1px 2px 5px 1px rgb(0 0 0 / 70%);
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.language_set {
+    display: flex;
+    align-items: center;
+}
+
+.answers_answer:hover {opacity: .8;} 
+
+.after_answer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    margin: 0 auto;
+}
+
+h5 {
+    font-family: Arial;
+    text-transform: uppercase;
+    color: dimgray;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+#author_move {
+    margin-bottom: 30px;
+}
+
+.pictures_quiz_menu {
+    text-align: center;
+    
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.pictures_answer {
+    width: 400px;
+    height: 400px;
+}
+
+#picture_1, #picture_2, #picture_3, #picture_4 {
+    cursor: pointer;
+}
+
+#picture_1:hover {
+    opacity: 0.8;
+}
+ 
+#picture_2:hover {
+    opacity: 0.8;
+}
+
+#picture_3:hover {
+    opacity: 0.8;
+}
+
+#picture_4:hover {
+    opacity: 0.8;
+}
+
+.after_answer_pic {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    margin: 0 auto;
+}
+
+#picture_of_art {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.artists_quiz, .pictures_quiz {
+    box-shadow: 0;
+    transition: box-shadow 1s;
+}
+
+.artists_quiz:hover {
+    box-shadow: 5px 5px 20px #515151;
+}
+
+.pictures_quiz:hover {
+    box-shadow: 0px 0px 20px #515151;
+}

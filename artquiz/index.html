@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Art Quiz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="header__logo">
+                    <img src="https://art-quiz.netlify.app/219e541dd08c3d7e0966.svg" class="main_logo" alt="header logo">
+                </div>
+            </header>
+
+            <main id="app" >
+                <div class="quiz__main">
+                    <div class="artists_quiz">
+                        <a style="display:block" href="#/artistsPool/" data-href="#/artistsPool/" onclick="locationResolver(this.dataset.href)">
+                            <div class="main_title">
+                                <img src="https://art-quiz.netlify.app/49d9d05b1f308acd84b9.jpg" class="artists_quiz_img" alt="quiz artists">
+                                <h2><span class="bold_word">ARTISTS</span> QUIZ</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="pictures_quiz">
+                        <a style="display:block" href="#/picturesPool/" data-href="#/picturesPool/" onclick="locationResolver(this.dataset.href)">
+                            <div class="main_title">
+                                <img src="https://art-quiz.netlify.app/b60adaba0ace2666085a.jpg" class="pictures_quiz_img" alt="quiz pictures">
+                                <h2><span class="bold_word">PICTURES</span> QUIZ</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="button_wrapper">
+                    <p><a class="settings__button" href="#/settings/" data-href="#/settings/" onclick="locationResolver(this.dataset.href)">Settings</a></p>
+                </div>
+            </main>
+            
+            <footer>
+                <div class="footer__items">
+                    <div class="author"><a href="https://github.com/amgod1">SCHEPUK KAMILL</a></div>
+                    <div class="year">© 2021</div>
+                    <div><a href="https://rs.school/js/"><img class="rs_school" src="https://art-quiz.netlify.app/3a4607274d5cf6e8f321.svg" alt="rs school"></a></div>
+                </div>
+            </footer>
+        </div>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
