@@ -2948,7 +2948,7 @@ const locationResolver = (location) => {
                         </a>
                     </div>
                 </div>
-                <div class="button_wrapper">
+                <div class="button_wrapper-main">
                     <p><a class="settings__button" href="#/settings/" data-href="#/settings/" onclick="locationResolver(this.dataset.href)">Settings</a></p>
                 </div>
             `
